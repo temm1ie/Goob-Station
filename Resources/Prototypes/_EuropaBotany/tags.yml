@@ -1,0 +1,23 @@
+- type: Tag
+  id: Geranium
+
+- type: Tag
+  id: Sunflower
+
+- type: Tag
+  id: LilyBouquet
+
+- type: Tag
+  id: LilyWreath
+
+- type: Tag
+  id: Lily
+
+- type: Tag
+  id: HydroponicsTrayGayaUpgrade
+
+- type: Tag
+  id: Swab # Storage Whitelist: Swab, what can be placed within a swab applicator.
+
+- type: Tag
+  id: SwabApplicator # Storage Whitelist: SwabApplicator
