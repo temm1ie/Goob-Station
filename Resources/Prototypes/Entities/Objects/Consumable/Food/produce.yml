@@ -1796,7 +1796,7 @@
         - ReagentId: StypticPowder
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lily.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/lily.rsi # Botany Expanded Edit
   - type: Produce
     seedId: lily
   - type: Extractable

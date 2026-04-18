@@ -546,7 +546,7 @@
     - type: Seed
       seedId: lily
     - type: Sprite
-      sprite: Objects/Specific/Hydroponics/lily.rsi
+      sprite: _BE/Objects/Specific/Hydroponics/lily.rsi # Botany Expanded Edit
 
 - type: entity
   parent: SeedBase

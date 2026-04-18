@@ -188,6 +188,11 @@
     guides:
     - Botany
     - Chemicals
+# Botany Expanded ADD
+  - type: Construction
+    graph: UpgradeHydroponicsTray
+    node: start
+# Botany Expanded END
 
 - type: entity
   parent: hydroponicsTray
