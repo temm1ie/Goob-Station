@@ -5,7 +5,7 @@
     description: A bouquet of blood-colored flowers. It looks fascinating and smells delicious.
     components:
     - type: Sprite
-      sprite: _EuropaBotany/Objects/Misc/bouquet.rsi
+      sprite: _BE/Objects/Misc/bouquet.rsi
       state: item
 
   - type: entity
@@ -15,7 +15,7 @@
     description: A bouquet of white flowers. It looks fascinating and smells delicious.
     components:
     - type: Sprite
-      sprite: _EuropaBotany/Objects/Misc/lilybouquet.rsi
+      sprite: _BE/Objects/Misc/lilybouquet.rsi
       state: icon
     - type: Construction
       graph: LilyBouquetConstruction

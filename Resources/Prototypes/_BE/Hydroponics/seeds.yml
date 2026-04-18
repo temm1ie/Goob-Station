@@ -3,7 +3,7 @@
   name: seeds-explosive-banana-name
   noun: seeds-noun-seeds
   displayName: seeds-explosive-banana-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/explosive_banana.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/explosive_banana.rsi
   packetPrototype: ExplosiveBananaSeeds
   productPrototypes:
   - ExplosiveBanana
@@ -34,7 +34,7 @@
   name: seeds-coffee-arabica-name
   noun: seeds-noun-seeds
   displayName: seeds-coffee-arabica-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/coffee_arabica.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/coffee_arabica.rsi
   packetPrototype: CoffeeArabicaSeeds
   productPrototypes:
   - FoodCoffeeArabica
@@ -66,7 +66,7 @@
   name: seeds-coffee-robust-name
   noun: seeds-noun-seeds
   displayName: seeds-coffee-robust-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/coffee_robust.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/coffee_robust.rsi
   packetPrototype: CoffeeRobustSeeds
   productPrototypes:
   - FoodCoffeeRobust
@@ -100,7 +100,7 @@
   name: seeds-geranium-name
   noun: seeds-noun-seeds
   displayName: seeds-geranium-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/geranium.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/geranium.rsi
   packetPrototype: GeraniumSeeds
   productPrototypes:
   - FoodGeranium
@@ -127,7 +127,7 @@
   name: plaststeelcap
   noun: seeds-noun-spores
   displayName: seeds-plaststeellog-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/plaststeelcap.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/plaststeelcap.rsi
   packetPrototype: PlastSteelcapSeeds
   productPrototypes:
   - PlastSteelLog
@@ -148,7 +148,7 @@
   name: glasscap
   noun: seeds-noun-spores
   displayName: seeds-glasslog-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/glasscap.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/glasscap.rsi
   packetPrototype: GlasscapSeeds
   productPrototypes:
   - GlassLog
@@ -169,7 +169,7 @@
   name: Cannabis Vita
   noun: seeds-noun-seeds
   displayName: seeds-cannabisvita-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/cannabis_vita.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/cannabis_vita.rsi
   packetPrototype: CannabisVitaSeeds
   productPrototypes:
   - CannabisVitaLeaves
@@ -197,7 +197,7 @@
   name: Barrelmelon
   noun: seeds-noun-seeds
   displayName: seeds-barrelmelon-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/barrelmelon.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/barrelmelon.rsi
   packetPrototype: BarrelmelonSeeds
   productPrototypes:
   - FoodBarrelmelon
@@ -222,7 +222,7 @@
   name: Lantern fruit
   noun: seeds-noun-seeds
   displayName: seeds-lanternfruit-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/lanternfruit.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/lanternfruit.rsi
   packetPrototype: LanternfruitSeeds
   productPrototypes:
   - FoodLanternfruit
@@ -254,7 +254,7 @@
   name: red rose
   noun: seeds-noun-seeds
   displayName: seeds-redrose-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/redrose.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/redrose.rsi
   packetPrototype: RedroseSeeds
   productPrototypes:
   - FoodRedrose
@@ -282,7 +282,7 @@
   name: White rose
   noun: seeds-noun-seeds
   displayName: seeds-whiterose-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/whiterose.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/whiterose.rsi
   packetPrototype: WhiteroseSeeds
   productPrototypes:
   - FoodWhiterose
@@ -312,7 +312,7 @@
   name: Sunflower
   noun: seeds-noun-seeds
   displayName: seeds-sunflower-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/sunflower.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/sunflower.rsi
   packetPrototype: SunflowerSeeds
   productPrototypes:
   - FoodSunflower
@@ -344,7 +344,7 @@
   name: AmbrosiaGaia
   noun: seeds-noun-seeds
   displayName: seeds-ambrosiagaia-display-name
-  plantRsi: _EuropaBotany/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+  plantRsi: _BE/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
   packetPrototype: AmbrosiaGaiaSeeds
   productPrototypes:
     - FoodAmbrosiaGaia

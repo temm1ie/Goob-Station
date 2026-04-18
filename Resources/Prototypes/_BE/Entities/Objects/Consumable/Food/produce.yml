@@ -28,7 +28,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/explosive_banana.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/explosive_banana.rsi
     state: produce
   - type: Produce
     seedId: ExplosiveBanana
@@ -61,7 +61,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/coffee_arabica.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/coffee_arabica.rsi
     state: produce
   - type: Produce
     seedId: CoffeeArabica
@@ -86,7 +86,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/coffee_arabica.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/coffee_arabica.rsi
     state: produce
   - type: SolutionContainerManager
     solutions:
@@ -109,7 +109,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/coffee_robust.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/coffee_robust.rsi
     state: produce
   - type: Produce
     seedId: CoffeeRobust
@@ -147,7 +147,7 @@
         - ReagentId: Lacerinol
           Quantity: 20
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/geranium.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/geranium.rsi
   - type: Produce
     seedId: Geranium
   - type: Extractable
@@ -163,7 +163,7 @@
   parent: ProduceBase
   components:
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/glasscap.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/glasscap.rsi
   - type: SolutionContainerManager
   - type: MeleeWeapon
     damage:
@@ -185,7 +185,7 @@
   parent: ProduceBase
   components:
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/plaststeelcap.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/plaststeelcap.rsi
   - type: SolutionContainerManager
   - type: MeleeWeapon
     damage:
@@ -221,7 +221,7 @@
         - ReagentId: Moonshine
           Quantity: 15
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/barrelmelon.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/barrelmelon.rsi
   - type: Produce
     seedId: Barrelmelon
   - type: Extractable
@@ -268,7 +268,7 @@
     flavors:
     - watermelon
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/barrelmelon.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/barrelmelon.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -303,7 +303,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/lanternfruit.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/lanternfruit.rsi
     state: produce
   - type: Produce
     seedId: Lanternfruit
@@ -332,7 +332,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/redrose.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/redrose.rsi
     state: produce
   - type: Produce
     seedId: Redrose
@@ -359,7 +359,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/whiterose.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/whiterose.rsi
     state: produce
   - type: Produce
     seedId: Whiterose
@@ -386,7 +386,7 @@
     flavors:
     - strange
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/sunflower.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/sunflower.rsi
     state: produce
   - type: Produce
     seedId: Sunflower
@@ -433,13 +433,13 @@
         - ReagentId: Nutriment
           Quantity: 2
   - type: Sprite
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
   - type: Produce
     seedId: AmbrosiaGaia
   - type: Extractable
     grindableSolutionName: food
   - type: Clothing
-    sprite: _EuropaBotany/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+    sprite: _BE/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
     slots:
     - HEAD
   - type: Tag

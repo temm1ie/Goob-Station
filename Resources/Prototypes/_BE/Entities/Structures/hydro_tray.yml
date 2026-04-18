@@ -16,7 +16,7 @@
         Quantity: 0.1
   - type: Sprite
     layers:
-      - sprite: _EuropaBotany/Entities/Structures/Hydroponics/containers.rsi
+      - sprite: _BE/Entities/Structures/Hydroponics/containers.rsi
         state: hydrotray3
       - sprite: Structures/Hydroponics/overlays.rsi
         state: lowhealth3
