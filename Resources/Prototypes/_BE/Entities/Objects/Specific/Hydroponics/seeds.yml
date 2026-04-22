@@ -127,3 +127,13 @@
     seedId: AmbrosiaGaia
   - type: Sprite
     sprite: _BE/Objects/Specific/Hydroponics/ambrosia_gaia.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of kronkus
+  id: KronkusSeeds
+  components:
+  - type: Seed
+    seedId: Kronkus
+  - type: Sprite
+    sprite: _BE/Objects/Specific/Hydroponics/kronkus.rsi

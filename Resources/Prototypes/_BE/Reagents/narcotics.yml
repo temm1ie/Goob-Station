@@ -1,0 +1,13 @@
+- type: reagent
+  id: Crocaine
+  name: Crocaine
+  group: Narcotics
+  desc: A frothy extract made from fermented kronkus vine pulp.
+  physicalDesc: reagent-physical-desc-ferrous
+  flavor: bitter
+  color: "#00FF66"
+  metabolisms:
+    Narcotic:
+      rate: 0.5
+      effects:
+      - !type:CrocaineReagentEffect {}

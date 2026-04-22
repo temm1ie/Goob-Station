@@ -1,0 +1,32 @@
+light_mode unshaded;
+
+uniform sampler2D SCREEN_TEXTURE;
+uniform highp float intensity;
+
+void fragment() {
+    highp vec2 uv = UV;
+    highp float t = TIME * 0.8;
+
+    highp vec2 wave;
+    wave.x = sin(uv.y * 6.0 + t) + cos(uv.x * 4.0 + t * 0.7);
+    wave.y = cos(uv.x * 5.0 - t * 0.8) + sin(uv.y * 7.0 - t * 1.1);
+
+    highp vec2 distorted_uv = uv + wave * 0.01 * intensity;
+
+    highp float split = 0.008 * intensity;
+    highp float r = texture(SCREEN_TEXTURE, distorted_uv + vec2(split, 0.0)).r;
+    highp float g = texture(SCREEN_TEXTURE, distorted_uv).g;
+    highp float b = texture(SCREEN_TEXTURE, distorted_uv - vec2(split, 0.0)).b;
+
+    highp vec3 final_color = vec3(r, g, b);
+
+    highp vec3 tint = vec3(0.85, 1.0, 0.95);
+    final_color = mix(final_color, final_color * tint, intensity * 0.5);
+
+    highp float dist = length(uv - 0.5);
+    highp float vignette = smoothstep(0.8, 0.3, dist);
+
+    final_color = final_color * mix(1.0 - (0.2 * intensity), 1.0, vignette);
+
+    COLOR = vec4(final_color, 1.0);
+}

@@ -445,3 +445,28 @@
   - type: Tag
     tags:
     - Ambrosia
+
+- type: entity
+  name: kronkus
+  parent: FoodProduceBase
+  id: FoodKronkus
+  description: A piece of mature kronkus vine. It exudes a sharp and noxious odor.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - leafy
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Crocaine
+          Quantity: 15
+        - ReagentId: Nutriment
+          Quantity: 5
+  - type: Sprite
+    sprite: _BE/Objects/Specific/Hydroponics/kronkus.rsi
+  - type: Produce
+    seedId: Kronkus
+  - type: Extractable
+    grindableSolutionName: food
