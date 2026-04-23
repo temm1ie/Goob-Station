@@ -1,3 +1,5 @@
+using Robust.Shared.GameObjects;
+
 namespace Content.Shared.Crocaine;
 
 public sealed class CrocaineVisualsSystem : EntitySystem
