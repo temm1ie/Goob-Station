@@ -137,3 +137,25 @@
     seedId: Kronkus
   - type: Sprite
     sprite: _BE/Objects/Specific/Hydroponics/kronkus.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of aloe ignis seeds
+  id: AloeIgnisSeeds
+  components:
+  - type: Seed
+    seedId: aloeIgnis
+  - type: Sprite
+    sprite: _BE/Objects/Specific/Hydroponics/aloe_ignis.rsi
+    state: seedpack
+
+- type: entity
+  parent: SeedBase
+  name: packet of dragon's tail seeds
+  id: DragonTailSeeds
+  components:
+  - type: Seed
+    seedId: dragonTail
+  - type: Sprite
+    sprite: _BE/Objects/Specific/Hydroponics/dragon_tail.rsi
+    state: seedpack

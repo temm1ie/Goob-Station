@@ -1290,6 +1290,8 @@
   packetPrototype: AloeSeeds
   productPrototypes:
     - FoodAloe
+  mutationPrototypes: # Botany Expanded Add
+    - aloeIgnis # Botany Expanded Add
   lifespan: 25
   maturation: 10
   production: 3

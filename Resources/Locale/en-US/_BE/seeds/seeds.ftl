@@ -33,3 +33,9 @@ seeds-whiterose-display-name = white rose plant
 
 seeds-sunflower-name = sunflower
 seeds-sunflower-display-name = sunflower plant
+
+seeds-aloe-ignis-name = aloe ignis
+seeds-aloe-ignis-display-name = aloe ignis
+
+seeds-dragontail-name = dragon's tail
+seeds-dragontail-display-name = dragon's tail
